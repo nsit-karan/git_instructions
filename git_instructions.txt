@@ -1,0 +1,11 @@
+1) Create the git repository on git-hub. name it 'new_git_project'
+2) On the linux terminal, create the dir with the same name 'new_git_project' and cd to that dir
+3) git init
+4) git add (add all the files you want to push to git)
+5) git commit (commit all the files)
+   Note this is all on the local box till this step and not pushed yet to github
+6) git remote add origin https://github.com/nsit-karan/new_git_project.git
+   verify the new remote : 'git remote -v'
+   the above sets the remote location where the local git repo gets pushed
+7) git push -u origin master
+   this will prompt for user/pass and will push the contents to the repo
